@@ -1,0 +1,76 @@
+body{
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  gap: 20px;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffe0e9, #fff5f7);
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #d63384;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form.card {
+    max-width: 450px;
+    margin: auto;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(214, 51, 132, 0.15);
+}
+
+.form-check {
+    padding: 12px 12px 12px 40px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c2d7;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.form-check:hover {
+    background-color: #fff0f5;
+    transform: translateY(-2px);
+}
+
+.btn-success {
+    background-color: #d63384;
+    border-color: #d63384;
+}
+
+.btn-success:hover {
+    background-color: #b5256c;
+    border-color: #b5256c;
+}
+
+.surprise {
+    animation: appear 1s ease forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
